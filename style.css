@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.board {
+    background-color: aquamarine;
+    width: 450px;
+    height: 450px;
+    border-radius: 30px;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+td {
+    height: 147px;
+    width: 147px;
+    text-align: center;
+    font-size: 500%;
+}
+
+
+tr, td {
+    border: 3px solid white;
+    border-collapse: collapse;
+}
+
+.player-turn {
+    text-align: center;
+}
